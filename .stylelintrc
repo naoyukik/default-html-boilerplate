@@ -1,0 +1,14 @@
+{
+  "plugins": [
+    "stylelint-scss"
+  ],
+  "extends": [
+    "./node_modules/prettier-stylelint/config.js",
+    "stylelint-config-airbnb",
+    "stylelint-config-recess-order"
+  ],
+  "ignoreFiles": [
+    "**/node_modules/**",
+    "**/assets/**"
+  ]
+}
